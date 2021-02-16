@@ -31,7 +31,7 @@ img {
     display: inline-block;
     padding: 8px 14px;
     border-radius: 5px;
-    background-color: green;
+    background-color: #7cbb02;
     color: white;
     text-decoration: none;
 }
@@ -66,11 +66,11 @@ header {
 }
 
 .mid_menu {
-    width: 50%;
+    width: 45%;
 }
 
 .right_menu {
-    width: 40%;
+    width: 45%;
 }
 
 .menu {
@@ -139,6 +139,7 @@ header {
     margin-top: 15px;
     color: grey;
     font-weight: bold;
+    text-align: center;
 
 }
 
@@ -146,25 +147,33 @@ header {
 
 /*2nd Section Start*/
 
+.info_first_section {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.info_first_section h2 {
+    text-align: center;
+    color: #7cbb02;
+    margin-top: 25px;
+
+}
+
+
 .left_col, .right_col {
-    width: 25%;
+    width: 30%;
     background-color: white;
-    height: 500px;
+   
 }
 
 .mid_col {
-    width: 50%;
-    
+    width: 40%;
 }
 
-
-.left_img {
-    padding: 70px;
+.size_img {
+    height: 100px;
 }
 
-.mid_img {
-    padding: 150px;
-}
 
 /*2nd Section End*/
 
