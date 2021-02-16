@@ -1,3 +1,94 @@
-body {
-    background-color: aqua;
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/*RESET*/
+
+/*COMMON*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+/*COMMON*/
+
+/*HEADER*/
+ 
+header {
+    height: 600px;
+    background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 120% 110%;
+   
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo_container {
+    width: 10%;
+}
+
+.mid_menu {
+    width: 50%;
+}
+
+.right_menu {
+    width: 40%;
+}
+
+.menu {
+   list-style-type: none;
+   padding: 13px;
+   margin-left: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 11px;
+}
+ 
+.right_menu {
+    text-align: right;
+}
+
+.button {
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.login {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+/*HEADER*/
