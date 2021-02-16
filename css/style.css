@@ -36,6 +36,12 @@ img {
     text-decoration: none;
 }
 
+.img_fit {
+    object-fit: cover;
+    height: 100%;
+}
+
+
 /*COMMON*/
 
 /*HEADER*/
@@ -110,8 +116,10 @@ header {
 
 /*MAIN START*/
 
-.banner_info {
-    height: 200px;
+/*1st Section Start*/
+
+.banner_slogan {
+    padding: 100px;
     width: 100%;
     background-color: lightgray;
     position: relative;
@@ -120,7 +128,7 @@ header {
 }
 
 
-.info_container {
+.slogan_container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -133,6 +141,35 @@ header {
     font-weight: bold;
 
 }
+
+/*1st Section End*/
+
+/*2nd Section Start*/
+
+.left_col, .right_col {
+    width: 25%;
+    background-color: white;
+    height: 500px;
+}
+
+.mid_col {
+    width: 50%;
+    
+}
+
+
+.left_img {
+    padding: 70px;
+}
+
+.mid_img {
+    padding: 150px;
+}
+
+/*2nd Section End*/
+
+
+
 
 
 
