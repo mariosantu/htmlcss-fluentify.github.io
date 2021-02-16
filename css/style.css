@@ -214,10 +214,23 @@ footer span {
     display: inline-block;
 }
 
-.request_align {
-    text-align: right;
+.footer_span {
+    width: 50%;
 }
 
+.plane_info {
+    width: 50%;
+}
+
+.gender_choice {
+    width: 50%;
+    text-align: right;
+    
+}
+ 
+.footer_bold {
+    font-weight: bold;
+}
 
 
 /*FOOTER*/
