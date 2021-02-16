@@ -200,10 +200,25 @@ header {
 /*3rd Section End*/
 
 
-
-
-
-
-
-
 /*MAIN END*/
+
+/*FOOTER*/
+
+footer {
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer span {
+    display: inline-block;
+}
+
+.request_align {
+    text-align: right;
+}
+
+
+
+/*FOOTER*/
+
