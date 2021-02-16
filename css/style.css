@@ -183,8 +183,20 @@ header {
     width: 50%;
 }
 
+.placement_col {
+    padding: 70px;
+}
 
+.graph_col {
+    padding: 30px;
+}
 
+.placement_col p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: grey;
+    font-weight: bold;
+}
 /*3rd Section End*/
 
 
